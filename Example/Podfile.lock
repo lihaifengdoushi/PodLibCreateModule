@@ -1,0 +1,16 @@
+PODS:
+  - PodLibCreateModule (0.1.0)
+
+DEPENDENCIES:
+  - PodLibCreateModule (from `../`)
+
+EXTERNAL SOURCES:
+  PodLibCreateModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodLibCreateModule: 7dbd900e785bda3a20aa87c560702682362ce3cc
+
+PODFILE CHECKSUM: eb309f2640def1b9d71cc02b691813ea1c8d5007
+
+COCOAPODS: 1.9.1
