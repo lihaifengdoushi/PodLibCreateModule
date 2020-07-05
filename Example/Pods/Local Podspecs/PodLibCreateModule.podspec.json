@@ -1,8 +1,8 @@
 {
   "name": "PodLibCreateModule",
-  "version": "0.1.0",
-  "summary": "A short description of PodLibCreateModule.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "A short subspec of PodLibCreateModule.",
+  "description": "PodLibCreateModule is using to use protocol for pod by subspec",
   "homepage": "https://github.com/lihaifengdoushi/PodLibCreateModule",
   "license": {
     "type": "MIT",
@@ -13,10 +13,29 @@
   },
   "source": {
     "git": "https://github.com/lihaifengdoushi/PodLibCreateModule.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "PodLibCreateModule/Classes/**/*"
+  "resource_bundles": {
+    "PodLibCreateModule": [
+      "PodLibCreateModule/Assets/**/*"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "ProtocolMediator",
+      "source_files": "PodLibCreateModule/Classes/ProtocolMediator/**/*"
+    },
+    {
+      "name": "CustomDefinedProtocol",
+      "source_files": "PodLibCreateModule/Classes/CustomDefinedProtocol/**/*",
+      "dependencies": {
+        "PodLibCreateModule/ProtocolMediator": [
+
+        ]
+      }
+    }
+  ]
 }

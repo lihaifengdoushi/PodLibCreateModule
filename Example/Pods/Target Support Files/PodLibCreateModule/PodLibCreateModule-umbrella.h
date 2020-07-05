@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "JJLoginProtocol.h"
+#import "JJBaseModuleProvider.h"
+#import "JJBaseProtocol.h"
+#import "JJProtocol.h"
+#import "JJProtocolManager.h"
+#import "UIView+JJModule.h"
+#import "UIViewController+JJModule.h"
 
 FOUNDATION_EXPORT double PodLibCreateModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodLibCreateModuleVersionString[];

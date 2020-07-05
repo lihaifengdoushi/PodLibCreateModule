@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		03661809711868F1641896F2 /* Pods-PodLibCreateModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLibCreateModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-PodLibCreateModule_Example/Pods-PodLibCreateModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0D5E1FBFA7A641C383A25DBD /* Pods_PodLibCreateModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLibCreateModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22ECD547E983FB977098DFDA /* PodLibCreateModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodLibCreateModule.podspec; path = ../PodLibCreateModule.podspec; sourceTree = "<group>"; };
+		22ECD547E983FB977098DFDA /* PodLibCreateModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodLibCreateModule.podspec; path = ../PodLibCreateModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4BA406009E686CA69160290A /* Pods-PodLibCreateModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLibCreateModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PodLibCreateModule_Tests/Pods-PodLibCreateModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PodLibCreateModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodLibCreateModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -322,13 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PodLibCreateModule_Example/Pods-PodLibCreateModule_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PodLibCreateModule/PodLibCreateModule.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodLibCreateModule_Example/Pods-PodLibCreateModule_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodLibCreateModule.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodLibCreateModule_Example/Pods-PodLibCreateModule_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
