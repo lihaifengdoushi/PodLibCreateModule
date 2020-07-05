@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodLibCreateModule'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short subspec of PodLibCreateModule.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,8 @@ PodLibCreateModule is using to use protocol for pod by subspec
 
   s.subspec 'CustomDefinedProtocol' do |customDefinedProtocol|
   customDefinedProtocol.source_files = 'PodLibCreateModule/Classes/CustomDefinedProtocol/**/*'
+# 设置依赖 依赖自己的ProtocolMediator子组件
+ customDefinedProtocol.dependency 'PodLibCreateModule/ProtocolMediator'
   end
 
  # s.source_files = 'PodLibCreateModule/Classes/**/*'
