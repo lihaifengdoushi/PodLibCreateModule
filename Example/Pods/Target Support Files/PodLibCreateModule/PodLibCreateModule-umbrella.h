@@ -11,6 +11,7 @@
 #endif
 
 #import "JJLoginProtocol.h"
+#import "ModuleHomeProtocol.h"
 #import "JJBaseModuleProvider.h"
 #import "JJBaseProtocol.h"
 #import "JJProtocol.h"

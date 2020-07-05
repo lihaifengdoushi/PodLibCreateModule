@@ -1,10 +1,10 @@
 PODS:
-  - PodLibCreateModule (0.2.0):
-    - PodLibCreateModule/CustomDefinedProtocol (= 0.2.0)
-    - PodLibCreateModule/ProtocolMediator (= 0.2.0)
-  - PodLibCreateModule/CustomDefinedProtocol (0.2.0):
+  - PodLibCreateModule (0.3.0):
+    - PodLibCreateModule/CustomDefinedProtocol (= 0.3.0)
+    - PodLibCreateModule/ProtocolMediator (= 0.3.0)
+  - PodLibCreateModule/CustomDefinedProtocol (0.3.0):
     - PodLibCreateModule/ProtocolMediator
-  - PodLibCreateModule/ProtocolMediator (0.2.0)
+  - PodLibCreateModule/ProtocolMediator (0.3.0)
 
 DEPENDENCIES:
   - PodLibCreateModule (from `../`)
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PodLibCreateModule: 4a62b4459d2b41c2ff24a0794c6bef402905253a
+  PodLibCreateModule: a47fba631dc524e5d928befaaadeb7fccc819084
 
 PODFILE CHECKSUM: 223cd9a52f177b4e6a376676d33cb890dab47f39
 

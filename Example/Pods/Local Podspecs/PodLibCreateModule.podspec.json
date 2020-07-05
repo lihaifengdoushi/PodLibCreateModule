@@ -1,6 +1,6 @@
 {
   "name": "PodLibCreateModule",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short subspec of PodLibCreateModule.",
   "description": "PodLibCreateModule is using to use protocol for pod by subspec",
   "homepage": "https://github.com/lihaifengdoushi/PodLibCreateModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lihaifengdoushi/PodLibCreateModule.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.3"
